@@ -1,6 +1,6 @@
 # Minecraft
 
-An attempt at making Minecraft in C++ with Multiplayer capabilities.
+An attempt at making Minecraft in C++ with Multiplayer capabilities using OpenGL.
 
 ### Current Features
 
