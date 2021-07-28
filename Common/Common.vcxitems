@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{ae301326-3f8f-493d-8bb8-1608c646f8b6}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Block.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)BlockMesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Camera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CameraController.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Chunk.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ChunkLoader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ChunkRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Event.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Keyboard.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MainPlayerController.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Material.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MaterialFactory.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MeshRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Mouse.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Player.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Shader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)StandardBlock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Texture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Time.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)World.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WorldGenerator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)WorldRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Block.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)BlockMesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CameraController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Chunk.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ChunkLoader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ChunkRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IVec3KeyHasher.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Keyboard.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MainPlayerController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Material.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MaterialFactory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MeshRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mouse.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PerlinNoise.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Player.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)StandardBlock.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)stb_image.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Texture.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Time.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)World.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WorldGenerator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WorldRenderer.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+C:\Users\lhawk\OneDrive\Projects\Minecraft\Debug\Common.pdb
+C:\Users\lhawk\OneDrive\Projects\Minecraft\Common\Debug\Common.pdb
+C:\Projects\Minecraft\Debug\Common.pdb
+C:\Projects\Minecraft\Common\Debug\Common.pdb
