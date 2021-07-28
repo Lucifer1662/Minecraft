@@ -23,4 +23,4 @@ An attempt at making Minecraft in C++ with Multiplayer capabilities.
 
 ### Example 
 
-<img href="/example.png"/>
+<img href="/Example.png"/>
